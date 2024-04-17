@@ -14,7 +14,7 @@ import {
 import { Mp4Upload, StreamWish, VidMoly } from '../../extractors';
 class KissAsian extends MovieParser {
   override readonly name = 'KissAsian';
-  protected override baseUrl = 'https://kissasian.mx';
+  protected override baseUrl = 'https://kissasian.com.pl';
   protected override logo = 'https://kissasian.mx/Content/images/logo.png';
   protected override classPath = 'MOVIES.KissAsian';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
